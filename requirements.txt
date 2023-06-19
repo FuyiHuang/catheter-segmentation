@@ -1,0 +1,16 @@
+imageio                       2.25.0
+matplotlib                    3.6.2
+numpy                         1.23.4
+opencv-python                 4.7.0.68
+pandas                        1.5.3
+scikit-fmm                    2023.4.2
+scikit-image                  0.20.0
+scikit-learn                  1.2.1
+scipy                         1.9.1
+seaborn                       0.12.2
+self-attention-cv             1.2.3
+sklearn                       0.0.post1
+tensor                        0.3.6
+torch                         1.12.0
+torchvision                   0.13.0
+tqdm                          4.64.1

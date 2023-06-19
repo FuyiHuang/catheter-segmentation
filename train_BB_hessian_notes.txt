@@ -1,0 +1,11 @@
+train bb_hessian scratch, fold 5, with dice ,
+CUDA_VISIBLE_DEVICES=1 nohup python train_involve_hessian.py --model_name BB_hessian --losses dice --n_folds 5 --setting scratch --real_subsets T4 &> BB_hessian_scratch_dice_hd_T4_5folds.out &
+
+
+
+
+
+train bb_hessian_pt_ft, folds 5, with dice, one T
+CUDA_VISIBLE_DEVICES=1 nohup python train_involve_hessian.py --model_name BB_hessian --losses dice --n_folds 5 --setting pt_ft --real_subsets T2 &> pt_ft_BB_hessian_dice_hd_T2_5folds.out &
+
+
