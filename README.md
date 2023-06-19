@@ -15,7 +15,7 @@ torchvision 0.13.0<br>
 pip install -r requirements.txt
 ```
 
-## train and test all 6 video file
+# train and test all 6 video file
 ```
 nohup python -u train_involve_hessian.py --model_name bb_hessian_unet --setting train_on_real_all --n_folds 5 > train_unet_hessain_shape_5folds.out
 ```
